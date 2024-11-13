@@ -31,5 +31,5 @@ class CarAdmin(admin.ModelAdmin):
 @admin.register(Manufacturer)
 class ManufacturerAdmin(admin.ModelAdmin):
     list_display = ("name", "country",)
-    list_filter = ("country",)
-    search_fields = ("name",)
+    list_filter = ("name",)
+    search_fields = ("country",)
